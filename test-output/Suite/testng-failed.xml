@@ -6,6 +6,21 @@
       <class name="com.test.DriverTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      <class name="com.test.CaptureScreenshot"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Grouping">
+    <groups>
+      <run>
+        <include name="Car"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.Grouping"/>
+    </classes>
+  </test> <!-- Grouping -->
   <test name="Test(failed)">
     <classes>
       <class name="com.test.DriverTest">

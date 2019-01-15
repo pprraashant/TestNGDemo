@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
-  <test name="Test">
-    <classes>
-      <class name="com.test.DriverTest"/>
-    </classes>
-  </test> <!-- Test -->
+	<test name="Test">
+		<classes>
+			<class name="com.test.DriverTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<classes>
+			<class name="com.test.CaptureScreenshot" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Grouping">
+		<groups>
+			<run>
+				<include name="Car" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.test.Grouping" />
+		</classes>
+	</test>
 </suite> <!-- Suite -->

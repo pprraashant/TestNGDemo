@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="4" passed="3">
+<testng-results skipped="0" failed="1" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1782" started-at="2018-07-03T05:22:56Z" finished-at="2018-07-03T05:22:58Z">
+  <suite name="Suite" duration-ms="39197" started-at="2019-01-15T04:14:17Z" finished-at="2019-01-15T04:14:56Z">
     <groups>
+      <group name="Car">
+        <method signature="Grouping.Car1()[pri:0, instance:com.test.Grouping@5622fdf]" name="Car1" class="com.test.Grouping"/>
+        <method signature="Grouping.Car2()[pri:0, instance:com.test.Grouping@5622fdf]" name="Car2" class="com.test.Grouping"/>
+        <method signature="Grouping.Sedan1()[pri:0, instance:com.test.Grouping@5622fdf]" name="Sedan1" class="com.test.Grouping"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="Grouping.Sedan1()[pri:0, instance:com.test.Grouping@5622fdf]" name="Sedan1" class="com.test.Grouping"/>
+      </group> <!-- Sedan Car -->
     </groups>
-    <test name="Default test" duration-ms="1782" started-at="2018-07-03T05:22:56Z" finished-at="2018-07-03T05:22:58Z">
+    <test name="Test" duration-ms="2205" started-at="2019-01-15T04:14:17Z" finished-at="2019-01-15T04:14:19Z">
       <class name="com.test.DriverTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.DriverTest@457e2f02]" name="beforeSuite" is-config="true" duration-ms="28" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.DriverTest@457e2f02]" name="beforeTest" is-config="true" duration-ms="2" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.DriverTest@457e2f02]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.DriverTest@457e2f02]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:com.test.DriverTest@457e2f02]" name="closeBrowser" duration-ms="21" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="closeBrowser" duration-ms="9" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -59,15 +63,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.DriverTest@457e2f02]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.DriverTest@457e2f02]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.test.DriverTest@457e2f02]" name="f" duration-ms="1" started-at="2018-07-03T10:52:56Z" data-provider="dp" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.test.DriverTest@6767c1fc]" name="f" duration-ms="2" started-at="2019-01-15T09:44:17Z" data-provider="dp" finished-at="2019-01-15T09:44:17Z">
           <params>
             <param index="0">
               <value>
@@ -83,15 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.DriverTest@457e2f02]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.DriverTest@457e2f02]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.test.DriverTest@457e2f02]" name="f" duration-ms="3" started-at="2018-07-03T10:52:56Z" data-provider="dp" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.test.DriverTest@6767c1fc]" name="f" duration-ms="2" started-at="2019-01-15T09:44:17Z" data-provider="dp" finished-at="2019-01-15T09:44:17Z">
           <params>
             <param index="0">
               <value>
@@ -107,35 +111,65 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.DriverTest@457e2f02]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.DriverTest@457e2f02]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:56Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.DriverTest@457e2f02]" name="launchBrowser" duration-ms="1698" started-at="2018-07-03T10:52:56Z" finished-at="2018-07-03T10:52:58Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="launchBrowser" duration-ms="2153" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.DriverTest@457e2f02]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-03T10:52:58Z" finished-at="2018-07-03T10:52:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.DriverTest@457e2f02]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-03T10:52:58Z" finished-at="2018-07-03T10:52:58Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-01-15T09:44:19Z" finished-at="2019-01-15T09:44:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.DriverTest@457e2f02]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-07-03T10:52:58Z" finished-at="2018-07-03T10:52:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-15T09:44:19Z" finished-at="2019-01-15T09:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-01-15T09:44:19Z" finished-at="2019-01-15T09:44:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.DriverTest@457e2f02]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-07-03T10:52:58Z" finished-at="2018-07-03T10:52:58Z">
+      </class> <!-- com.test.DriverTest -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="36815" started-at="2019-01-15T04:14:19Z" finished-at="2019-01-15T04:14:56Z">
+      <class name="com.test.CaptureScreenshot">
+        <test-method status="PASS" signature="captureScreenMethod()[pri:0, instance:com.test.CaptureScreenshot@1bce4f0a]" name="captureScreenMethod" duration-ms="36812" started-at="2019-01-15T09:44:19Z" finished-at="2019-01-15T09:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenMethod -->
+      </class> <!-- com.test.CaptureScreenshot -->
+    </test> <!-- Test2 -->
+    <test name="Grouping" duration-ms="9" started-at="2019-01-15T04:14:56Z" finished-at="2019-01-15T04:14:56Z">
+      <class name="com.test.DriverTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2019-01-15T09:44:17Z" finished-at="2019-01-15T09:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.DriverTest@6767c1fc]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-01-15T09:44:56Z" finished-at="2019-01-15T09:44:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.test.DriverTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.test.Grouping">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:com.test.Grouping@5622fdf]" name="Car1" duration-ms="1" started-at="2019-01-15T09:44:56Z" finished-at="2019-01-15T09:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:com.test.Grouping@5622fdf]" name="Car2" duration-ms="2" started-at="2019-01-15T09:44:56Z" finished-at="2019-01-15T09:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:com.test.Grouping@5622fdf]" name="Sedan1" duration-ms="1" started-at="2019-01-15T09:44:56Z" finished-at="2019-01-15T09:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- com.test.Grouping -->
+    </test> <!-- Grouping -->
+  </suite> <!-- Suite -->
 </testng-results>

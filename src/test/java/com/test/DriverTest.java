@@ -55,7 +55,7 @@ public class DriverTest {
 
   @AfterTest
   public void afterTest() {
-	  System.out.println("AfterMethod");
+	  System.out.println("AfterTest");
   }
 
   @BeforeSuite
